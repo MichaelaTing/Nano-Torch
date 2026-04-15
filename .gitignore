@@ -1,0 +1,30 @@
+__pycache__/
+.pytest_cache/
+build/
+*.so
+.DS_Store
+
+# Dataset and generated outputs
+/data/**
+!/data/
+
+# Python cache and packaging artifacts
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+htmlcov/
+.coverage
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / local settings
+.vscode/
